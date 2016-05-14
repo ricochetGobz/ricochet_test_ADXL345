@@ -57,7 +57,7 @@ void updateCubeOrientation() {
   Y = event.acceleration.y;
   Z = event.acceleration.z;
  
-  Serial.print("X: "); Serial.print(X); Serial.print(", Z: "); Serial.println(Z); //Serial.print("Y: "); Serial.println(Y);
+  Serial.print("X: "); Serial.print(X); Serial.print("Y: "); Serial.print(Y); Serial.print(", Z: "); Serial.println(Z);
 }
 
 int getFaceDetected() {
