@@ -1,0 +1,28 @@
+{
+  "name": "ricochet_test_adxl345",
+  "version": "1.0.0",
+  "description": "<img alt=\"Our ADXL345 accelerometer\" src=\"http://miniimg.rightinthebox.com/images/384x384/201210/axnfpp1350351764621.jpg?raw=true\">",
+  "main": "index.js",
+  "scripts": {
+    "start": "node firmataAccel.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricochetGobz/ricochet_test_ADXL345.git"
+  },
+  "keywords": [
+    "arduino",
+    "firmata",
+    "johnny-five",
+    "accelerometer"
+  ],
+  "author": "Jérémie Boulay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricochetGobz/ricochet_test_ADXL345/issues"
+  },
+  "homepage": "https://github.com/ricochetGobz/ricochet_test_ADXL345#readme",
+  "dependencies": {
+    "johnny-five": "^0.9.49"
+  }
+}

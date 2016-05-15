@@ -18,6 +18,22 @@
 <img alt="ADXL345 cabling" src="https://cdn-learn.adafruit.com/assets/assets/000/006/366/original/adafruit_products_2013_03_24_IMG_1450-1024.jpg?1396835367?raw=true">
 
 
+# With Firmata :
 
+## Links
 
+- [Johnny-five tutorial - Accelerometer - ADXL345](http://johnny-five.io/examples/accelerometer-adxl345/)
 
+## Cabling
+
+<img alt="ADXL345 cabling for firmata" src="http://johnny-five.io/img/breadboard/accelerometer-adxl345.png?raw=true">
+
+## Steps
+
+- upload into arduino the `firmataAccel.ino`
+- `npm install && npm start`
+
+## Problems met
+
+- Z-Axis not responce
+- [Problems of bit addresses into johnny-five](https://github.com/rwaldron/johnny-five/issues/1135)
